@@ -125,6 +125,15 @@ export default defineComponent({
     "scourge": "Преображённое",
     "Tier: {0}": "Уровень: {0}",
     "Rank: {0}": "Ранг: {0}"
+  },
+  "taiwan": {
+    "implicit": "隱藏",
+    "fractured": "破碎",
+    "explicit": "明確",
+    "crafted": "製造",
+    "scourge": "墮落",
+    "Tier: {0}": "等級: {0}",
+    "Rank: {0}": "等級: {0}"
   }
 }
 </i18n>

@@ -3,7 +3,8 @@ import { AppConfig } from '@/web/Config'
 
 const ENDPOINT_BY_LANG = {
   en: 'www.poewiki.net/wiki',
-  ru: 'pathofexile-ru.gamepedia.com'
+  ru: 'pathofexile-ru.gamepedia.com',
+  taiwan: 'pathofexile.gamepedia.com'
 }
 
 export function openWiki (clipboard: string) {

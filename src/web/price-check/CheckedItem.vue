@@ -246,6 +246,9 @@ export default defineComponent({
 {
   "ru": {
     "This tool relies on {0} and {1}, consider support them as well": "Это приложение полагается на сайт {1}, можете поддержать и его"
+  },
+  "taiwan":{
+    "This tool relies on {0} and {1}, consider support them as well": "這個工具依賴 {0} 和 {1}, 請支持他們"
   }
 }
 </i18n>

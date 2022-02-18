@@ -59,6 +59,13 @@ export default defineComponent({
     "Disabled (render on CPU)": "Отключено (рендерить на CPU)",
     "PoE window title": "Заголовок окна игры",
     "Restore clipboard": "Восстанавливать буфер обмена"
-  }
+  },
+  "taiwan": {
+    "Log level": "日誌等級",
+    "Hardware Acceleration": "硬體加速",
+    "Disabled (render on CPU)": "停用 (在 CPU 上渲染)",
+    "PoE window title": "PoE 窗口標題",
+    "Restore clipboard": "恢復剪貼板"
+  },
 }
 </i18n>

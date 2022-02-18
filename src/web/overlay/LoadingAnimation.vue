@@ -73,6 +73,9 @@ export default defineComponent({
 {
   "ru": {
     "Is ready and running in background": "Запущен и работает в фоновом режиме"
-  }
+  },
+  "taiwan":{
+    "Is ready and running in background": "已啟動並在背景執行"
+  },
 }
 </i18n>

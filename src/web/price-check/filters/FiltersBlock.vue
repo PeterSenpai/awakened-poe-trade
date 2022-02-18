@@ -143,6 +143,13 @@ export default defineComponent({
     "Stats ignored": "Св-ва не важны",
     "{0} of {1}, stats": "Св-ва: {0} из {1}",
     "Mods": "Моды"
+  },
+  "taiwan": {
+    "Hidden": "隱藏",
+    "Collapse": "收起",
+    "Stats ignored": "屬性不重要",
+    "{0} of {1}, stats": "屬性: {0} / {1}",
+    "Mods": "插件"
   }
 }
 </i18n>

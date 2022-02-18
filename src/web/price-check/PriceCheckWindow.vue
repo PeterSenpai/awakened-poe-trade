@@ -186,6 +186,10 @@ export default defineComponent({
 {
   "ru": {
     "Press {0} to switch between browser and game.": "Нажмите {0} для перехода между браузером/игрой."
+  },
+  "taiwan": {
+    "Press {0} to switch between browser and game.": "按 {0} 切換在瀏覽器和遊戲之間。"
+  },
   }
 }
 </i18n>

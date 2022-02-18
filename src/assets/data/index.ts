@@ -119,7 +119,6 @@ export function stat (text: string) {
 
 ;(async function initData () { /* eslint-disable no-lone-blocks */
   const { language } = AppConfig()
-
   {
     await loadItems(language)
     await loadStats(language)
@@ -138,4 +137,5 @@ export function stat (text: string) {
     BLIGHT_RECIPES = await (await fetch(`${process.env.BASE_URL}data/blight-recipes.json`)).json()
     ITEM_DROP = await (await fetch(`${process.env.BASE_URL}data/item-drop.json`)).json()
   }
+  console.log('CLIENT_STRINGSCLIENT_STRINGSCLIENT_STRINGSCLIENT_STRINGS', CLIENT_STRINGS)
 })()

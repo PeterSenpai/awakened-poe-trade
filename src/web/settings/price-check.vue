@@ -213,6 +213,24 @@ export default defineComponent({
     "Loading leagues...": "Загрузка лиг...",
     "Failed to load leagues": "Не удалось загрузить лиги",
     "Show price prediction": "Показывать приблизительную цену"
+  },
+  "taiwan":{
+    "Account name": "帳號名稱",
+    "or Private League": "或私人聯盟",
+    "Show seller": "顯示賣家",
+    "Last character name": "最後角色名稱",
+    "Your items will be highlighted even if this setting is off": "即使此設定關閉，您的物品也會被高亮",
+    "Fill stat values": "填充屬性值",
+    "Exact roll": "精確值",
+    "Show memorized cursor position": "顯示記憶體位置",
+    "Minimum buyout price": "最低買價",
+    "Chaos Orbs": "混沌寶珠",
+    "Extra time to prevent spurious Rate limiting": "預防錯誤的限制率",
+    "seconds": "秒",
+    "Settings below are a compromise between increasing load on PoE website and convenient price checking / more accurate search.": "以下設定是為了減少PoE網站的負載，以及更方便的價格檢查/更精確的搜尋而建立的一個溝通。",
+    "Show indication on collapsed listings": "顯示收縮清單的指示",
+    "Perform an auto search, when pressing": "按下時執行自動搜尋",
+    "Always select \"Stock\" filter": "總是選擇\"庫存\"過濾器",
   }
 }
 </i18n>

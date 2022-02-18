@@ -74,6 +74,16 @@ export default defineComponent({
     "1 Week Ago": "До 1-й недели",
     "2 Weeks Ago": "До 2-х недель",
     "1 Month Ago": "До 1-го месяца"
+  },
+  "taiwan": {
+    "Offline & Online": "離線與上線",
+    "In League": "在聯盟",
+    "Listed: Any Time": "任何時間",
+    "1 Day Ago": "1 天前",
+    "3 Days Ago": "3 天前",
+    "1 Week Ago": "1 週前",
+    "2 Weeks Ago": "2 週前",
+    "1 Month Ago": "1 月前"
   }
 }
 </i18n>

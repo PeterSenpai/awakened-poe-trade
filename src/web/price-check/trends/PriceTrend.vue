@@ -136,6 +136,12 @@ export default defineComponent({
     "Last 7 days": "За неделю",
     "Getting price": "Получение цены",
     "from poe.ninja ...": "с poe.ninja ..."
+  },
+  "taiwan": {
+    "Base item": "基礎物品",
+    "Last 7 days": "最近7天",
+    "Getting price": "從 poe.ninja 取得價格",
+    "from poe.ninja ...": "從 poe.ninja ..."
   }
 }
 </i18n>

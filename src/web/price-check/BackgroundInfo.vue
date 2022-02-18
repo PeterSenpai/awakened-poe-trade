@@ -63,6 +63,14 @@ export default defineComponent({
     "Loading leagues...": "Загрузка лиг...",
     "Failed to load leagues": "Не удалось загрузить лиги",
     "Verify that the realm is not under maintenance and pathofexile.com is loading.": "Убедитесь, что сервера не находятся на обслуживании и pathofexile.com загружается."
+  },
+  "taiwan":{
+    "Update available: {0}": "有更新可用: {0}",
+    "It will be installed automatically on exit": "退出時會自動安裝",
+    "You can download it from GitHub": "你可以從 GitHub 下載",
+    "Loading leagues...": "正在載入聯盟...",
+    "Failed to load leagues": "載入聯盟失敗",
+    "Verify that the realm is not under maintenance and pathofexile.com is loading.": "確認伺服器沒有在維護狀態且pathofexile.com正在載入"
   }
 }
 </i18n>

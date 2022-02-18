@@ -25,9 +25,13 @@ export async function pollClipboard (): Promise<string> {
   clipboardPromise = new Promise((resolve, reject) => {
     function poll () {
       const textAfter = clipboard.readText()
+      console.log("+++++++++++++++++", textAfter)
 
       if (isActiveLangItem(textAfter)) {
+        console.log('hhhhhhhhhhhhhhhhhhhhhhhhh')
+        
         if (config.get('restoreClipboard')) {
+          console.log('eeeeeee', textBefore)
           clipboard.writeText(textBefore)
         }
         isPollingClipboard = false
@@ -62,11 +66,13 @@ export async function pollClipboard (): Promise<string> {
 }
 
 function isActiveLangItem (text: string) {
+  // console.log('wwwwwwwwwwwwwtf', config.get('language'));
   const line = LANGUAGE_DETECTOR.find(({ lang }) => lang === config.get('language'))!.firstLine
   return text.startsWith(line)
 }
 
 function isInactiveLangItem (text: string) {
+  console.log("==========", text)
   return LANGUAGE_DETECTOR.find(({ firstLine }) => text.startsWith(firstLine))
 }
 
@@ -94,4 +100,7 @@ export const LANGUAGE_DETECTOR = [{
 }, {
   lang: 'ko',
   firstLine: '아이템 종류: '
+}, {
+  lang: 'taiwan', 
+  firstLine: '物品種類: '
 }]

@@ -104,6 +104,10 @@ export default defineComponent({
   "ru": {
     "widget title": "заголовок виджета",
     "Choose File": "Выберите файл"
+  },
+  "taiwan":{
+    "widget title": "標題",
+    "Choose File": "選擇檔案"
   }
 }
 </i18n>

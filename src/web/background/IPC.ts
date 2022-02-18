@@ -44,9 +44,13 @@ class MainProcessBinding {
   }
 
   getConfig (): Config {
-    if (window.electronAPI) {
-      return window.electronAPI.getConfig()
+    if (electron) {
+      const name: IpcGetConfig['name'] = 'OVERLAY->MAIN::get-config'
+      console.log('electron.ipcRenderer.sendSync(name)', electron.ipcRenderer.sendSync(name))
+      return electron.ipcRenderer.sendSync(name) as IpcGetConfig['payload']
+
     } else {
+      console.log('defaultConfig()', defaultConfig())
       return defaultConfig()
     }
   }

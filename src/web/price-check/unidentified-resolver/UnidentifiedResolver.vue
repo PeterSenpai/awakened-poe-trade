@@ -80,6 +80,9 @@ export default defineComponent({
 {
   "ru": {
     "You are trying to price check unidentified Unique item with base type \"{0}\". Which one?": "Вы пытаетесь сделать прайс-чек неопознанного Уникального предмета с базой \"{0}\". Какого именно?"
-  }
+  },
+  "taiwan": {
+    "You are trying to price check unidentified Unique item with base type \"{0}\". Which one?": "你正在嘗試價格檢查未知的唯一物品，基於\"{0}\"。哪一個？"
+  },
 }
 </i18n>
