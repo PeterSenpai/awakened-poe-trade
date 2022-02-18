@@ -152,6 +152,15 @@ export default defineComponent({
     "Maps": "Карты",
     "Debug": "Debug (Отладка)",
     "Chat": "Чат"
-  }
+  },
+  "taiwan": {
+    "Settings - Awakened PoE Trade": "Awakened PoE Trade 設定",
+    "Hotkeys": "快捷鍵",
+    "General": "一般",
+    "Price check": "價格檢查",
+    "Maps": "地圖",
+    "Debug": "Debug (調試)",
+    "Chat": "聊天"
+  },
 }
 </i18n>

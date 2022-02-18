@@ -295,6 +295,18 @@ export default defineComponent({
     "Listed": "Выставлен",
     "Seller": "Продавец",
     "Trade site request failed": "Запрос к сайту не удался"
+  },
+  "taiwan": {
+    "Matched:": "已找到:",
+    "Trade": "交易",
+    "Price": "價格",
+    "Stock": "庫存",
+    "iLvl": "等級",
+    "Level": "等級",
+    "Quality": "品質",
+    "Listed": "已上架",
+    "Seller": "賣家",
+    "Trade site request failed": "交易網站請求失敗"
   }
 }
 </i18n>

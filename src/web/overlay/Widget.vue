@@ -309,6 +309,13 @@ export default defineComponent({
     "edit": "редактировать",
     "move": "переместить",
     "delete": "удалить"
-  }
+  },
+  "taiwan":{
+    "hide": "隱藏",
+    "edit": "編輯",
+    "move": "移動",
+    "delete": "刪除"
+  },
 }
+
 </i18n>

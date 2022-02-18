@@ -102,6 +102,10 @@ export default defineComponent({
   "ru": {
     "widget title": "заголовок виджета",
     "search text": "текст поиска"
+  },
+  "taiwan": {
+    "widget title": "小工具標題",
+    "search text": "搜尋文字"
   }
 }
 </i18n>

@@ -70,6 +70,9 @@ export default defineComponent({
 {
   "ru": {
     "Not Set": "Не назначено"
+  },
+  "taiwan":{
+    "Not Set": "未設定"
   }
 }
 </i18n>

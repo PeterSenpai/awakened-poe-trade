@@ -410,6 +410,29 @@ export default defineComponent({
     "1 Empty or Crafted Modifier": "1 свободное или ремесленное свойство",
     "Select only if item has 6 modifiers (1 of which is crafted) or if it has 5 modifiers": "Выбирайте, только если у предмета 6 свойств (1 из которых ремесленное) или если у него 5 свойств",
     "First ask yourself: would you buy an item with this stat?": "Сначала спросите себя: купили бы вы предмет с этим модом?"
+  },
+  "taiwan":{
+    "Q {0}%": "數量: {0}%",
+    "DPS: #": "DPS: #",
+    "Elemental DPS: #": "元素DPS: #",
+    "Physical DPS: #": "物理DPS: #",
+    "Attacks per Second: #": "每秒攻擊: #",
+    "Critical Strike Chance: #%": "暴擊率: #%",
+    "Armour: #": "護甲: #",
+    "Evasion Rating: #": "閃躲: #",
+    "Energy Shield: #": "能量護盾: #",
+    "Ward: #": "結界: #",
+    "Block: #%": "格擋: #%",
+    "variant": "變化",
+    "corrupted": "墮落",
+    "synthesised": "合成",
+    "eldritch": "邪惡",
+    "pseudo": "偽裝",
+    "Roll is not variable": "擲骰不可變",
+    "Elemental damage is not the main source of DPS": "元素傷害不是主要攻擊造成的DPS",
+    "Physical damage is not the main source of DPS": "物理傷害不是主要攻擊造成的DPS",
+    "Filtering by exact Elemental Resistance unreasonably increases the price": "篩選按照精確的元素抗性會不理應地增加價格",
+    "Crafted Chaos Resistance without Explicit mod has no value": "已製作的混沌抗性沒有明確模組的值",
   }
 }
 </i18n>

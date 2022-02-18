@@ -66,6 +66,11 @@ export default defineComponent({
     "Any": "Любое",
     "Prefix": "Префикс",
     "Suffix": "Суффикс"
+  },
+  "taiwan": {
+    "Any": "任何",
+    "Prefix": "前綴",
+    "Suffix": "後綴"
   }
 }
 </i18n>

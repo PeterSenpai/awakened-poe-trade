@@ -94,6 +94,13 @@ export default defineComponent({
     "Image strip": "Лента изображений",
     "Show button for active widgets": "Показывать кнопку для активных виджетов",
     "add widget": "добавить виджет"
+  },
+  "taiwan": {
+    "Stopwatch": "計時器",
+    "Stash search": "搜索儲藏箱",
+    "Image strip": "圖片條",
+    "Show button for active widgets": "顯示活躍的小工具按鈕",
+    "add widget": "新增小工具"
   }
 }
 </i18n>

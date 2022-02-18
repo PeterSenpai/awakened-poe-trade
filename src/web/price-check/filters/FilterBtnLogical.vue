@@ -92,6 +92,26 @@ export default defineComponent({
     "Anomalous": "Аномальный",
     "Divergent": "Искривлённый",
     "Phantasmal": "Фантомный"
+  },
+  "taiwan": {
+    "Unidentified": "未知",
+    "Veiled": "隱身",
+    "Blighted": "瘟疫",
+    "Blight-ravaged": "瘟疫損壞",
+    "Mirrored": "鏡像",
+    "Not Mirrored": "非鏡像",
+
+    "Shaper": "創造者",
+    "Elder": "長老",
+    "Crusader": "十字軍",
+    "Hunter": "獵人",
+    "Redeemer": "救世主",
+    "Warlord": "戰爭領主",
+
+    "Superior": "超級",
+    "Anomalous": "異常",
+    "Divergent": "分歧",
+    "Phantasmal": "幻象"
   }
 }
 </i18n>

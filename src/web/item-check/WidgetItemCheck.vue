@@ -86,6 +86,8 @@ export default defineComponent({
 <i18n>
 {
   "ru": {
+  },
+  "taiwan": {
   }
 }
 </i18n>

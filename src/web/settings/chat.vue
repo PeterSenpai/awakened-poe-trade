@@ -49,6 +49,10 @@ export default defineComponent({
   "ru": {
     "Add command": "Добавить команду",
     "press Enter": "нажимать Enter"
+  },
+  "taiwan": {
+    "Add command": "新增指令",
+    "press Enter": "按 Enter"
   }
 }
 </i18n>

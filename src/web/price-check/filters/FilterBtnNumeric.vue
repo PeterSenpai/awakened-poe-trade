@@ -112,6 +112,17 @@ export default defineComponent({
     "White:": "Белые:",
     "Quality:": "Качество:",
     "Level:": "Уровень:"
+  },
+  "taiwan": {
+    "Item Level:": "物品等級:",
+    "Stock:": "庫存:",
+    "Map Tier:": "地圖層級:",
+    "Area Level:": "區域等級:",
+    "Wings Revealed:": "翅膀已發現:",
+    "Links:": "連結:",
+    "White:": "白色:",
+    "Quality:": "品質:",
+    "Level:": "等級:"
   }
 }
 </i18n>

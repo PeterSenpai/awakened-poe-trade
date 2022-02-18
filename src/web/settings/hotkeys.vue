@@ -95,6 +95,18 @@ export default defineComponent({
     "Item info": "Проверка предмета",
     "Stash tab scrolling": "Прокрутка вкладок тайника",
     "Delve grid": "Сетка \"Спуска\""
+  },
+  "taiwan":{
+    "You can clear hotkey by pressing Backspace": "按下 Backspace 鍵可清除快捷鍵",
+    "Price check": "價格檢查",
+    "Auto-hide Mode": "自動隱藏模式",
+    "Open without auto-hide": "不自動隱藏",
+    "Overlay": "覆蓋",
+    "Open item on wiki": "在維基上打開物品",
+    "Map check": "地圖檢查",
+    "Item info": "物品資訊",
+    "Stash tab scrolling": "隱藏袋子標籤滾動",
+    "Delve grid": "探險網格"
   }
 }
 </i18n>

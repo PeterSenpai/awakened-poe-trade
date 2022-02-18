@@ -48,7 +48,7 @@
       <div class="mb-4 flex">
         <ui-radio v-model="language" value="en" class="mr-4">English</ui-radio>
         <ui-radio v-model="language" value="ru" class="mr-4">Русский</ui-radio>
-        <ui-radio v-model="language" value="zh_TW" class="mr-4">zh_TW</ui-radio>
+        <ui-radio v-model="language" value="taiwan" class="mr-4">taiwan</ui-radio>
       </div>
     </div>
     <div class="mb-2">
@@ -106,6 +106,19 @@ export default defineComponent({
     "PoE config file": "Файл настроек PoE",
     "Browse": "Выбрать",
     "Auto-download updates": "Автозагрузка обновлений"
+  },
+  "taiwan": {
+    "Font size": "字體大小",
+    "Background, when APT window is clickable": "當 APT 窗口可點擊時的背景",
+    "Transparent": "透明",
+    "Show for Overlay and Price Check": "顯示為 Overlay 和價格檢查",
+    "Show only for Overlay": "只顯示為 Overlay",
+    "Clicking on background focuses game": "點擊背景將焦點移至遊戲",
+    "Language": "語言",
+    "PoE log file": "PoE 日誌檔案",
+    "PoE config file": "PoE 設定檔案",
+    "Browse": "瀏覽",
+    "Auto-download updates": "自動下載更新"
   }
 }
 </i18n>

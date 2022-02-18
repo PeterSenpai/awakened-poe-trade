@@ -132,6 +132,11 @@ export default defineComponent({
     "Only selected": "Только выбранные",
     "Stat (found: {0})": "Свойства (найдено: {0})",
     "Show icon for new mods": "Иконка у новых модов"
+  },
+  "taiwan": {
+    "Only selected": "只有選擇的",
+    "Stat (found: {0})": "狀態 (找到: {0})",
+    "Show icon for new mods": "顯示新的模組圖示"
   }
 }
 </i18n>

@@ -127,6 +127,32 @@ export default defineComponent({
     "Category: Heist Gear": "Категория: Разбойничьи принадлежности",
     "Category: Heist Cloak": "Категория: Разбойничья накидка",
     "Category: Trinket": "Категория: Украшение"
+  },
+  "taiwan":{
+    "Corrupted": "破損",
+    "Not Corrupted": "未破損",
+    "Category: Abyss Jewel": "分類: 藍晶石",
+    "Category: Amulet": "分類: 披風",
+    "Category: Belt": "分類: 腰帶",
+    "Category: Body Armour": "分類: 身體護甲",
+    "Category: Boots": "分類: 靴子",
+    "Category: Bow": "分類: 弓",
+    "Category: Claw": "分類: 爪",
+    "Category: Dagger": "分類: 匕首",
+    "Category: Fishing Rod": "分類: 魚竿",
+    "Category: Flask": "分類: 瓶子",
+    "Category: Gloves": "分類: 手套",
+    "Category: Helmet": "分類: 胸甲",
+    "Category: Jewel": "分類: 珠寶",
+    "Category: One-Handed Axe": "分類: 單手斧",
+    "Category: One-Handed Mace": "分類: 單手錘",
+    "Category: One-Handed Sword": "分類: 單手劍",
+    "Category: Quiver": "分類: 箭袋",
+    "Category: Ring": "分類: 戒指",
+    "Category: Rune Dagger": "分類: 符文匕首",
+    "Category: Sceptre": "分類: 杖",
+    "Category: Shield": "分類: 盾牌",
+    "Category: Staff": "分類: 杖",
   }
 }
 </i18n>
