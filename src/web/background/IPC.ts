@@ -1,18 +1,18 @@
-import type { Renderer } from 'electron'
-import type { IpcEvent, IpcEventPayload, IpcGetConfig, IpcImportFile } from '@/ipc/ipc-event'
-import { Config, defaultConfig } from '@/ipc/types'
+import type { IpcEvent, IpcEventPayload } from '@/ipc/ipc-event'
+import { Config, defaultConfig, PreloadExposed } from '@/ipc/types'
 
-let electron: typeof Renderer | undefined
-try {
-  electron = require('electron')
-} catch {}
+declare global {
+  interface Window {
+    electronAPI?: PreloadExposed
+  }
+}
 
 class MainProcessBinding {
   private evBus = new EventTarget()
 
   constructor () {
-    if (electron) {
-      electron.ipcRenderer.on('named-event', (_e, data: IpcEvent) => {
+    if (window.electronAPI) {
+      window.electronAPI.onEvent(data => {
         this.selfDispatch(data)
       })
     }
@@ -25,8 +25,8 @@ class MainProcessBinding {
   }
 
   sendEvent (event: IpcEvent) {
-    if (electron) {
-      electron.ipcRenderer.send(event.name, event.payload)
+    if (window.electronAPI) {
+      window.electronAPI.sendEvent(event)
     }
   }
 
@@ -48,17 +48,10 @@ class MainProcessBinding {
       const name: IpcGetConfig['name'] = 'OVERLAY->MAIN::get-config'
       console.log('electron.ipcRenderer.sendSync(name)', electron.ipcRenderer.sendSync(name))
       return electron.ipcRenderer.sendSync(name) as IpcGetConfig['payload']
+
     } else {
       console.log('defaultConfig()', defaultConfig())
       return defaultConfig()
-    }
-  }
-
-  openSystemBrowser (url: string) {
-    if (electron) {
-      this.sendEvent({ name: 'OVERLAY->MAIN::system-browser', payload: url })
-    } else {
-      window.open(url)
     }
   }
 
@@ -67,20 +60,19 @@ class MainProcessBinding {
   }
 
   importFile (filePath: string) {
-    if (electron) {
-      const name: IpcImportFile['name'] = 'OVERLAY->MAIN::import-file'
-      return electron.ipcRenderer.sendSync(name, filePath) as IpcImportFile['payload']
+    if (window.electronAPI) {
+      return window.electronAPI.importFile(filePath)
     }
   }
 
   get CORS () {
-    return (!electron)
+    return (!window.electronAPI)
       ? 'https://apt-cors.snos.workers.dev/?'
       : ''
   }
 
   get isElectron () {
-    return (electron != null)
+    return (window.electronAPI != null)
   }
 }
 

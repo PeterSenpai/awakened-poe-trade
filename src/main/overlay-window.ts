@@ -1,6 +1,6 @@
 import path from 'path'
 import assert from 'assert'
-import { BrowserWindow, ipcMain, dialog, Menu, systemPreferences, IpcMainEvent } from 'electron'
+import { BrowserWindow, ipcMain, dialog, shell, Menu, systemPreferences, IpcMainEvent } from 'electron'
 import { PoeWindow } from './PoeWindow'
 import { logger } from './logger'
 import * as ipc from '@/ipc/ipc-event'
@@ -51,10 +51,9 @@ export async function createOverlayWindow () {
     height: 600,
     // backgroundColor: '#00000008',
     webPreferences: {
-      nodeIntegration: true,
-      contextIsolation: false,
       webSecurity: false,
-      defaultFontSize: config.get('fontSize')
+      defaultFontSize: config.get('fontSize'),
+      preload: path.join(__dirname, 'preload.js')
     }
   })
 
@@ -66,6 +65,11 @@ export async function createOverlayWindow () {
   overlayWindow.webContents.on('before-input-event', handleExtraCommands)
 
   setupCfProtection()
+
+  overlayWindow.webContents.setWindowOpenHandler((details) => {
+    shell.openExternal(details.url)
+    return { action: 'deny' }
+  })
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
     overlayWindow.loadURL(process.env.WEBPACK_DEV_SERVER_URL)
